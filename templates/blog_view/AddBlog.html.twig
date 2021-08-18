@@ -1,5 +1,34 @@
 {% extends "base.html.twig"%}
 
 
+{% block body%}
+        <div class="container my-5">
+            <div class="card border-none border-dark shadow">
+                <div class="card-body">
+                    <div class="card shadow p-3 bg-dark">
+                        <h3 class="text-bold text-white">Add Blog</h3>
+                    </div>
+                    <div class="my-3">
+                        <form> 
+                            <div class="form-group">
+                              <label for="blog_title">Blog Title</label>
+                              <input type="text" class="form-control" id="blog_title" aria-describedby="emailHelp">
+                            </div>
+                            <div class="form-group">
+                              <label for="blog_author">Author</label>
+                              <input type="text" class="form-control" id="blog_author">
+                            </div>
+                            <div class="form-group">
+                                <label for="blog_description">Description</label>
+                                <textarea type="text" class="form-control" id="blog_description">
+                                </textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-dark px-5 float-right">ADD</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+{% endblock %} 
 
