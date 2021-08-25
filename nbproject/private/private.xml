@@ -2,10 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/var/www/html/symfony_learning/DEMO_BLOG/src/Entity/Blog.php</file>
-            <file>file:/var/www/html/symfony_learning/DEMO_BLOG/src/Controller/BlogController.php</file>
-            <file>file:/var/www/html/symfony_learning/DEMO_BLOG/templates/blog_view/showBlog.html.twig</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

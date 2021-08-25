@@ -21,7 +21,7 @@ class Blog {
      * 
      * @ORM\Column(type="text" , length="100")
      */
-    private $Blog_title;
+    private $BlogTitle;
 
     /**
      * 
@@ -33,7 +33,7 @@ class Blog {
      * 
      * @ORM\Column(type="text" , length="255")
      */
-    private $Blog_description;
+    private $BlogDescription;
 
     public function getId() {
         return $this->id;
@@ -43,12 +43,12 @@ class Blog {
         $this->id = $Id;
     }
 
-    public function getBlog_Title() {
-        return $this->Blog_title;
+    public function getBlogTitle() {
+        return $this->BlogTitle;
     }
 
-    public function setBlog_Title($Blog_Title) {
-        $this->Blog_title = $Blog_Title;
+    public function setBlogTitle($BlogTitle) {
+        $this->BlogTitle = $BlogTitle;
     }
 
     public function getAuthor() {
@@ -59,12 +59,12 @@ class Blog {
         $this->Author = $Author;
     }
     
-    public function getBlog_description() {
-        return $this->Blog_description;
+    public function getBlogDescription() {
+        return $this->BlogDescription;
     }
 
-    public function setBlog_description($Blog_description) {
-        $this->Blog_description = $Blog_description;
+    public function setBlogDescription($BlogDescription) {
+        $this->BlogDescription = $BlogDescription;
     }
 
 }
